@@ -10,15 +10,13 @@
         "url": "git+https://github.com/victor-kugay/sandbox-istio.git"
     },
     "keywords": [
-        "temporal",
-        "typescript",
-        "nodejs",
-        "postgres"
+        "kubernetes",
+        "istio"
     ],
     "scripts": {
         "start": "node build/index.js",
         "start:watch": "nodemon build/index.js",
-        "format": "prettier --write {src,scripts}",
+        "format": "prettier --write {build,deploy}",
         "prepare": "husky install",
         "lint-staged": "lint-staged"
     },
